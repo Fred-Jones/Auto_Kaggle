@@ -9,13 +9,8 @@ function inner(link) {
     }
   }
 }
-// function handleClick(link) {
-//   link.click()
-//   setTimeout(console.log('puta'), 2000)
-//
-// }
 
-/* Need to handle the fact that some 'doc's are actually arrays of length 0
+/* Need to handle the fact that some 'doc's are actually arrays of length 1
 described below*/
 var name = 'sample_submission.csv.zip'
 var doc = document.getElementsByName(name)
