@@ -15,4 +15,4 @@ function clickit(linklist, k) {
     linklist[k].click()
     k += 1
 }
-setInterval(console.log('puta'), 5000)
+
