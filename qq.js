@@ -1,7 +1,4 @@
-//Still only one link is clicked
-//Consider setTimeout(click, 2000)
-////need to slow execution block continuation of the loop
-//Consider resolving a promise
+
 (function () {
   var all_links = document.getElementsByTagName('a')
   for (var i=0; i<all_links.length; i++) {
